@@ -1,0 +1,8 @@
+.env
+
+/__pycache__/
+/myenv
+bin/
+build/
+develop-eggs/
+dist/
