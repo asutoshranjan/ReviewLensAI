@@ -7,7 +7,7 @@ load_dotenv()
 
 
 watsonx_api_key = os.getenv("WATSONX_APIKEY")
-project_id = "a8e9763d-969d-44f6-b44a-c872ba661eb9"
+project_id = os.getenv("PROJECT_ID")
 deployment_id = ""
 
 parameters = {
