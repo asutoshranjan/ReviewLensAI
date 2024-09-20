@@ -38,7 +38,7 @@ right: 2rem;
 st.markdown(page_bg_img, unsafe_allow_html=True)
 
 # Streamlit UI
-st.title("ReviewMinds AI")
+st.title("ReviewLens AI")
 url = st.text_input("Enter Product URL")
 
 
