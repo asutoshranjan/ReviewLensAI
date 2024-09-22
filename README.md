@@ -20,7 +20,7 @@ It help you make faster, more informed purchase decisions by automatically extra
 
 1. Clone the repo
 ```bash
-git clone https://github.com/asutoshranjan/ReviewLensAI
+git clone https://github.com/asutoshranjan/ReviewLensAI.git
 cd ReviewLensAI
 ```
 
