@@ -1,7 +1,7 @@
 # ReviewLensAI
 AI-powered product review analyzer that reduces the time spent reading online reviews by 80%.
 
-It help you make faster, more informed purchase decisions by automatically extracting, analyzing, and summarizing online reviews. Powered by IBM’s watsonx.ai granite-13b-chat-v2 foundation model.
+It uses a remote scraping browser with Selenium to retrieve product reviews from websites. BeautifulSoup is used for DOM parsing and cleaning the extracted data. The cleaned data is split into chunks based on the token limits, allowing it to be processed by granite-13b-chat-v2 foundation model using LangChain. Prompts and model parameters are fine-tuned in watsonx.ai's Prompt Lab to analyze product reviews and generate structured, concise responses.
 
 ## Features
 - **Structured Review Insights**: Collects and summarizes product reviews into concise, actionable insight.
